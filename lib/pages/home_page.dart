@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:spotify_clone/widgets/song_widget.dart';
 import 'package:spotify_clone/constants.dart';
 import 'package:spotify_clone/widgets/current_music.dart';
-import 'package:spotify_clone/widgets/more_artists.dart';
+import 'package:spotify_clone/widgets/homePage%20widgets/more_artists.dart';
 import 'package:spotify_clone/widgets/footer.dart';
-import 'package:spotify_clone/widgets/get_started.dart';
+import 'package:spotify_clone/widgets/homePage%20widgets/get_started.dart';
 import 'package:spotify_clone/widgets/header.dart';
-import 'package:spotify_clone/widgets/recently_played.dart';
+import 'package:spotify_clone/widgets/homePage%20widgets/recently_played.dart';
 import 'package:spotify_clone/widgets/spacing_widget.dart';
-import 'package:spotify_clone/widgets/your_shows.dart';
+import 'package:spotify_clone/widgets/homePage%20widgets/your_shows.dart';
 
 main(){
   runApp(const HomeScreen());
