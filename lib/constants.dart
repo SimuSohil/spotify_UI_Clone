@@ -18,3 +18,10 @@ const appBarGradient = LinearGradient(
   begin: Alignment.topCenter,
   end: Alignment.bottomCenter,
 );
+
+//TextStyle
+const defaultTextStyle = TextStyle(
+  fontFamily: 'San Francisco',
+  fontWeight: FontWeight.w700,
+  color: Colors.white,
+);

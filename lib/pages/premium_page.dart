@@ -44,7 +44,63 @@ class PremiumPageView extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         child: Column(
           children: [
-            
+            Stack(
+              children: [
+                Row(
+                  children: [
+                    SizedBox(
+                      child: Column(
+                        children: [
+                          Image.asset('assets/images/Img15.png'),
+                          Image.asset('assets/images/Img16.png'),
+                          Image.asset('assets/images/Img17.png'),
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                      child: Column(
+                        children: [
+                          Image.asset('assets/images/Img18.png'),
+                          Image.asset('assets/images/Img19.png'),
+                          Image.asset('assets/images/Img20.png'),
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                      child: Column(
+                        children: [
+                          Image.asset('assets/images/Img21.png'),
+                          Image.asset('assets/images/Img22.png'),
+                          Image.asset('assets/images/Img23.png'),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: SizedBox(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Image.asset('assets/icons/Spotify Logo2.png'),
+                        const Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Text(
+                            'Premium',
+                            style: TextStyle(
+                              fontFamily: 'San Francisco',
+                              fontWeight: FontWeight.w700,
+                              color: Colors.white,
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                )
+              ],
+            )
           ],
         ),
       )
